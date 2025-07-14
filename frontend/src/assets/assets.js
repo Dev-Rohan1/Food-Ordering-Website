@@ -15,3 +15,34 @@ export const assets = {
   category_03,
   category_04,
 };
+
+export const categories = [
+  {
+    id: 1,
+    img: assets.category_01,
+    title: "Fresh & Healthy",
+    description:
+      "Enjoy fresh, healthy meals made with the finest natural ingredients.",
+  },
+  {
+    id: 2,
+    img: assets.category_02,
+    title: "Fast Delivery",
+    description:
+      "Swift and safe delivery of your meals right to your doorstep every time.",
+  },
+  {
+    id: 3,
+    img: assets.category_03,
+    title: "Delicious Taste",
+    description:
+      "Savor mouth-watering flavors carefully crafted by our expert chefs.",
+  },
+  {
+    id: 4,
+    img: assets.category_04,
+    title: "Affordable Prices",
+    description:
+      "High-quality meals offered at prices that fit your budget perfectly.",
+  },
+];

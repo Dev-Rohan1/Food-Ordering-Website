@@ -1,35 +1,4 @@
-import { assets } from "../assets/assets";
-
-const categories = [
-  {
-    id: 1,
-    img: assets.category_01,
-    title: "Fresh & Healthy",
-    description:
-      "Enjoy fresh, healthy meals made with the finest natural ingredients.",
-  },
-  {
-    id: 2,
-    img: assets.category_02,
-    title: "Fast Delivery",
-    description:
-      "Swift and safe delivery of your meals right to your doorstep every time.",
-  },
-  {
-    id: 3,
-    img: assets.category_03,
-    title: "Delicious Taste",
-    description:
-      "Savor mouth-watering flavors carefully crafted by our expert chefs.",
-  },
-  {
-    id: 4,
-    img: assets.category_04,
-    title: "Affordable Prices",
-    description:
-      "High-quality meals offered at prices that fit your budget perfectly.",
-  },
-];
+import { categories } from "../assets/assets";
 
 const Category = () => {
   return (
@@ -38,7 +7,7 @@ const Category = () => {
         {categories.map(({ id, img, title, description }) => (
           <div
             key={id}
-            className="flex flex-col items-center text-center border border-gray-100 p-6 rounded-xl bg-white shadow hover:shadow-lg transition-shadow"
+            className="flex flex-col items-center text-center border border-gray-100 p-6 rounded-xl bg-white shadow"
           >
             <img className="w-20 mb-4" src={img} alt={title} />
             <h3 className="text-2xl font-semibold text-gray-900 mb-2">
