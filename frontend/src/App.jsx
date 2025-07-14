@@ -1,3 +1,4 @@
+import AboutUs from "./components/AboutUs";
 import Category from "./components/Category";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Category />
+      <AboutUs />
     </AppLayout>
   );
 };

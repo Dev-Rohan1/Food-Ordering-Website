@@ -5,6 +5,10 @@ import category_01 from "./category_01.png";
 import category_02 from "./category_02.png";
 import category_03 from "./category_03.png";
 import category_04 from "./category_04.png";
+import about from "./about-us.png";
+import bike from "./bike.png";
+import Variety from "./Variety.png";
+import burger from "./burger.png";
 
 export const assets = {
   logo,
@@ -14,6 +18,10 @@ export const assets = {
   category_02,
   category_03,
   category_04,
+  about,
+  bike,
+  Variety,
+  burger,
 };
 
 export const categories = [
