@@ -188,7 +188,6 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-
         {/* Bottom Section */}
         <div className="absolute bottom-0 left-0 right-0 py-5 border-t border-gray-200 px-6">
           <div className="flex items-center justify-center gap-4">
@@ -200,7 +199,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
       {/* Backdrop */}
       {isMobileMenuOpen && (
         <div
