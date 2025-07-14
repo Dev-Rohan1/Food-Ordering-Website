@@ -179,7 +179,7 @@ const Navbar = () => {
             <a
               className={`text-gray-700 hover:text-red-500 transition-colors ${
                 menu === "contact-us"
-                  ? "text-red-500 font-medium after:content-[''] after:block after:h-[2px] after:rounded-full after:bg-red-500 after:transition-all after:w-full"
+                  ? "text-red-500 font-medium after:contenkt-[''] after:block after:h-[2px] after:rounded-full after:bg-red-500 after:transition-all after:w-full"
                   : ""
               } cursor-pointer`}
               href="#contact-us"
