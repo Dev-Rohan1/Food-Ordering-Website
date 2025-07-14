@@ -1,3 +1,4 @@
+import Category from "./components/Category";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import { Button } from "./components/ui/button";
@@ -8,6 +9,7 @@ const App = () => {
     <AppLayout>
       <Navbar />
       <Hero />
+      <Category />
     </AppLayout>
   );
 };
